@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Type Selection</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .selection-container {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            width: 400px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+        .selection-container h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 300;
+        }
+        .selection-container button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #00c6ff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .selection-container button:hover {
+            background-color: #0072ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="selection-container">
+        <h2>Select Login Type</h2>
+        <button onclick="location.href='logging/admin_login.html'">Admin</button>
+        <button onclick="location.href='logging/teacher_login.html'">Teacher</button>
+        <button onclick="location.href='logging/student_login.html'">Student</button>
+        <button onclick="location.href='logging/parent_login.html'">Parent</button>
+           </div>
+    <script>
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = '#001f3f'; // Example color
+        }
+    </script>
+</body>
+</html>

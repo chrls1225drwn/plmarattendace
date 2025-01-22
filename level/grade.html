@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Level</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .grade-container {
+            background-color: rgba(0, 0, 0, 0.85);
+            padding: 40px;
+            border-radius: 15px;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+            text-align: center;
+        }
+        .grade-container h2 {
+            margin-bottom: 30px;
+            font-size: 32px;
+            font-weight: 400;
+        }
+        .grade-container ul {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+        .grade-container ul li {
+            margin: 0;
+        }
+        .grade-container ul li a {
+            text-decoration: none;
+            color: #00c6ff;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+            display: block;
+            text-align: center;
+            font-size: 18px;
+        }
+        .grade-container ul li a:hover {
+            background-color: #0072ff;
+            transform: scale(1.05);
+        }
+        .back-button {
+            margin-top: 30px;
+            color: #00c6ff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .back-button:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="grade-container">
+        <h2>Grade Level: Grade 11 STEM</h2>
+        <ul>
+            <li><a href="#">Section S201</a></li>
+            <li><a href="#">Section S202</a></li>
+            <li><a href="#">Section S203</a></li>
+            <li><a href="#">Section S204</a></li>
+            <li><a href="#">Section S205</a></li>
+            <li><a href="#">Section S206</a></li>
+            <li><a href="#">Section S207</a></li>
+            <li><a href="#">Section S208</a></li>
+            <li><a href="#">Section S209</a></li>
+            <li><a href="#">Section S210</a></li>
+            <li><a href="#">Section S211</a></li>
+            <li><a href="#">Section S212</a></li>
+        </ul>
+        <a href="/page/home.html/home.html" class="back-button">Back to Home</a>
+    </div>
+</body>
+</html>
